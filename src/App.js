@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import { ChatBubbleIcon, DotsHorizontalIcon, FontSizeIcon, HamburgerMenuIcon, LightningBoltIcon, PaperPlaneIcon } from '@radix-ui/react-icons';
+import { ChatBubbleIcon, DotsHorizontalIcon, HamburgerMenuIcon, LightningBoltIcon, PaperPlaneIcon } from '@radix-ui/react-icons';
 
 function Sidebar() {
-  const [sessions, setSessions] = React.useState([
+  const sessions = [
     {summary: "Matter #1", dateTime: "01/09/2023 12:00 PM"},
     {summary: "Matter #2", dateTime: "01/09/2023 12:00 PM"},
     {summary: "Matter #3", dateTime: "01/09/2023 12:00 PM"},
     {summary: "Matter #4", dateTime: "01/09/2023 12:00 PM"},
     {summary: "Matter #5", dateTime: "01/09/2023 12:00 PM"},
-  ]);
+  ];
 
   const pastChats = sessions.map((_session, index) => {
     const maxMsgLen = 20;
