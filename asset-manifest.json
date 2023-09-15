@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KWMLaw/static/css/main.4da7be10.css",
+    "main.js": "/KWMLaw/static/js/main.87770ca7.js",
+    "static/js/787.71df535f.chunk.js": "/KWMLaw/static/js/787.71df535f.chunk.js",
+    "index.html": "/KWMLaw/index.html",
+    "main.4da7be10.css.map": "/KWMLaw/static/css/main.4da7be10.css.map",
+    "main.87770ca7.js.map": "/KWMLaw/static/js/main.87770ca7.js.map",
+    "787.71df535f.chunk.js.map": "/KWMLaw/static/js/787.71df535f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4da7be10.css",
+    "static/js/main.87770ca7.js"
+  ]
+}
